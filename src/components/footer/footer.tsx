@@ -13,7 +13,7 @@ export default function Footer({
         <div className="text-center">
           <div className="flex items-center justify-center space-x-4 mb-6">
             <img
-              src="/img/demir.webp"
+              src={process.env.NEXT_PUBLIC_BASE_PATH + "/img/demir.webp"}
               alt={personal.name}
               className="w-10 h-10 rounded-xl object-cover border-2 border-blue-500"
             />

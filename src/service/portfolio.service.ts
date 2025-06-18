@@ -187,7 +187,7 @@ const portfolioService = {
         category: "Enterprise Platform",
         description:
           "Enterprise logistics platform with microservices architecture serving millions of users.",
-        image: "/img/nesy.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/nesy.webp",
         technologies: [
           "Angular",
           "PrimeNG",
@@ -204,7 +204,8 @@ const portfolioService = {
         category: "E-commerce",
         description:
           "Modern e-commerce platform with advanced search capabilities and real-time inventory management.",
-        image: "/img/villasepeti.webp",
+        image:
+          (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/villasepeti.webp",
         technologies: [
           "React",
           "Next.js",
@@ -221,7 +222,7 @@ const portfolioService = {
         category: "AI/ML",
         description:
           "Advanced authentication system with facial recognition and biometric security features.",
-        image: "/img/tmrwme.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/tmrwme.webp",
         technologies: [
           "React",
           "Next.js",
@@ -238,7 +239,7 @@ const portfolioService = {
         category: "Fintech",
         description:
           "Credit and loan management system for Turkey's leading travel platform.",
-        image: "/img/enuygun.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/enuygun.webp",
         technologies: ["React", "Next.js", "Strapi", "GraphQL"],
         link: "https://www.enuygunfinans.com/kredi",
       },
@@ -248,7 +249,7 @@ const portfolioService = {
         category: "Enterprise Web",
         description:
           "A web application for kocsistem.com.tr where dynamic pages can be created from the CMS using a custom component library.",
-        image: "/img/koc.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/koc.webp",
         technologies: ["RemixJS", "Decap CMS", "PostgreSQL"],
         link: "https://www.kocsistem.com.tr/",
       },
@@ -258,7 +259,7 @@ const portfolioService = {
         category: "Component Library",
         description:
           "A component library for dod.com.tr developed with Vue.js and Ant Design, documented with Storybook.",
-        image: "/img/dod.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/dod.webp",
         technologies: ["Vue.js", "Ant Design", "Storybook"],
         link: "https://dod.com.tr/",
       },
@@ -268,7 +269,7 @@ const portfolioService = {
         category: "Component Library",
         description:
           "A component library for sensat.com developed with Vue.js and Ant Design, documented with Storybook.",
-        image: "/img/sensat.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/sensat.webp",
         technologies: ["Vue.js", "Ant Design", "Storybook"],
         link: "https://sensat.com/",
       },
@@ -278,7 +279,8 @@ const portfolioService = {
         category: "Corporate Website",
         description:
           "A corporate web platform for tezmaksan.com.tr developed using React, Next.js, MUI, and Squdex CMS.",
-        image: "/img/tezmaksan.webp",
+        image:
+          (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/tezmaksan.webp",
         technologies: ["React", "Next.js", "MUI", "Sqdex CMS"],
         link: "https://tezmaksan.com/tr",
       },
@@ -288,7 +290,7 @@ const portfolioService = {
         category: "Component Library",
         description:
           "A React-based component library project for the Sestek chatbot. Customizable React components were developed for different chatbot interfaces.",
-        image: "/img/sestek.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/sestek.webp",
         technologies: ["React", "Storybook"],
         link: null,
       },
@@ -298,7 +300,7 @@ const portfolioService = {
         category: "Admin Panel",
         description:
           "A comprehensive admin panel for managing vehicles, devices, batteries, stations, clients, users, campaigns, and reservations. The main product enables the management of ads to be played on LED panels mounted on taxis.",
-        image: "/img/ledtaxi.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/ledtaxi.webp",
         technologies: ["React", "Next.js", "MUI", "Storybook"],
         link: null,
       },
@@ -308,7 +310,7 @@ const portfolioService = {
         category: "Interactive Map",
         description:
           "A website where comments and information about locations entered from the CMS are displayed. While navigating to a point of interest, users can also see nearby charging stations along their route based on their location.",
-        image: "/img/merak.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/merak.webp",
         technologies: ["React", "Next.js", "MUI", "Storybook", "Strapi"],
         link: null,
       },
@@ -319,7 +321,7 @@ const portfolioService = {
         category: "B2B Platform",
         description:
           "A large-scale B2B project for ptttrade.com, similar to Alibaba.com. Developed as a comprehensive system for business-to-business commerce.",
-        image: "/img/ptttrade.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/ptttrade.webp",
         technologies: [
           "Angular",
           "Go",
@@ -338,7 +340,7 @@ const portfolioService = {
         category: "Real-Time Communication",
         description:
           "A system for voice and video chat rooms (web.seslidunya.com) with Android and iOS mobile apps named 'seslidunya'.",
-        image: "/img/sesli.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/sesli.webp",
         technologies: ["Angular", "WebRTC", "Jitsi", "Redis", "MongoDB", "Go"],
         link: "https://web.seslidunya.com/",
       },
@@ -348,7 +350,7 @@ const portfolioService = {
         category: "Audio & Image Processing",
         description:
           "Fullstack project for audio and image processing as part of a Tubitak R&D initiative.",
-        image: "/img/R&D1.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/R&D1.webp",
         technologies: [
           "JQuery",
           "HTML",
@@ -365,7 +367,7 @@ const portfolioService = {
         category: "Search Engine & Crawler",
         description:
           "Fullstack project for document search engine and crawler (doc, pdf, txt...) as part of a Tubitak R&D initiative.",
-        image: "/img/R&D1.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/R&D1.webp",
         technologies: [
           "JQuery",
           "HTML",
@@ -382,7 +384,7 @@ const portfolioService = {
         category: "Social Media Search Engine",
         description:
           "Fullstack project for social media search engine and crawler (tweets, facebook messages...) as part of a Tubitak R&D initiative.",
-        image: "/img/R&D1.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/R&D1.webp",
         technologies: [
           "JQuery",
           "HTML",
@@ -399,7 +401,7 @@ const portfolioService = {
         category: "Search Engine",
         description:
           "Fullstack search engine project as part of a Tubitak R&D initiative.",
-        image: "/img/R&D1.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/R&D1.webp",
         technologies: [
           "JQuery",
           "HTML",
@@ -416,7 +418,7 @@ const portfolioService = {
         category: "Address Quality Improvement",
         description:
           "Fullstack address quality improvement project as part of a Tubitak R&D initiative.",
-        image: "/img/R&D1.webp",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/R&D1.webp",
         technologies: [
           "JQuery",
           "HTML",
@@ -433,7 +435,8 @@ const portfolioService = {
         category: "Enterprise Data Platform",
         description:
           "In this role, I was responsible for the end-to-end development of the project, acting both as the team lead and a fullstack developer. Initially hired as a backend developer, I was offered full ownership of the project after demonstrating initiative and presenting technical solutions during early meetings. I accepted the leadership role and successfully delivered the project over the course of one year. The system is a comprehensive platform where daily, weekly, monthly, and annual data from Turkish Sugar Corporation factories, export unions, and around 1,000 companies involved in sugar import, export, production, and sales is entered. It generates dynamic reports based on this input, enabling efficient tracking and analysis.",
-        image: "/img/software-1.webp",
+        image:
+          (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/software-1.webp",
         technologies: [
           "IIS",
           "C# .NET Rest Service",
@@ -452,7 +455,8 @@ const portfolioService = {
         category: "Web & SaaS Solutions",
         description:
           "As the sole developer, I built and maintained dynamic, content-driven corporate websites and admin panels, handling both frontend and backend as well as UI/UX design. Delivered performant, SEO-friendly, multilingual sites tailored to corporate clients. Also designed and launched a custom SaaS order management system for real-time order businesses (e.g., pizzerias, fast food). Features included live order tracking, real-time notifications, product catalog management, and an admin dashboard. All projects were delivered end-to-end, from design to deployment. Example sites: www.modaadresi.com, www.hcmdemiral.com.tr, www.realdogaltas.com, www.idealwebtasarim.com, www.numanpide.com, www.ozaydinpide.com, www.arzupidesalonlari.com, www.buketpastanesi.com.tr, www.savoybalik.com.tr.",
-        image: "/img/software-1.webp",
+        image:
+          (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/software-1.webp",
         technologies: [".NET", "HTML", "CSS", "JQuery", "MSSQL"],
         link: null,
       },
