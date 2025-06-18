@@ -6,7 +6,6 @@ const nextConfig: NextConfig = {
   basePath: isGithubPages ? `/${repoName}` : "",
   assetPrefix: isGithubPages ? `/${repoName}/` : "",
   images: { unoptimized: true },
-  // force trailing slash for all URLs (GitHub Pages için önerilir)
   trailingSlash: true,
 };
 
