@@ -29,7 +29,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({
               <div className="w-48 h-48 rounded-full overflow-hidden ring-4 ring-blue-500/30 shadow-2xl">
                 <Image
                   src={
-                    process.env.NEXT_PUBLIC_BASE_PATH || "" + "/img/demir.webp"
+                    (process.env.NEXT_PUBLIC_BASE_PATH || "") +
+                    "/img/demir.webp"
                   }
                   alt={personal.name}
                   width={192}
@@ -64,8 +65,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href={
-                process.env.NEXT_PUBLIC_BASE_PATH ||
-                "" + "/img/DemirCV202506.pdf"
+                (process.env.NEXT_PUBLIC_BASE_PATH || "") +
+                "/img/DemirCV202506.pdf"
               }
               download
               target="_blank"
@@ -113,7 +114,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
             <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden ring-4 ring-blue-500/30 shadow-2xl">
               <Image
                 src={
-                  process.env.NEXT_PUBLIC_BASE_PATH || "" + "/img/demir.webp"
+                  (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/demir.webp"
                 }
                 alt={personal.name}
                 width={384}
