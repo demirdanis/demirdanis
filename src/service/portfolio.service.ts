@@ -275,6 +275,16 @@ const portfolioService = {
       },
       {
         id: 11,
+        title: "Kordon Madya",
+        category: "Web Site / Android / IOS Apps",
+        description:
+          "An integrated application that publishes the corporate website for radio broadcasting owned by Kordon Media and their Android and iOS apps.",
+        image: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/img/kordon.webp",
+        technologies: ["React", "Next.js", "Github Pages"],
+        link: null,
+      },
+      {
+        id: 12,
         title: "Tezmaksan Web Platform",
         category: "Corporate Website",
         description:
@@ -285,7 +295,7 @@ const portfolioService = {
         link: "https://tezmaksan.com/tr",
       },
       {
-        id: 6,
+        id: 13,
         title: "Sestek Chatbot Component Library",
         category: "Component Library",
         description:
@@ -295,7 +305,7 @@ const portfolioService = {
         link: null,
       },
       {
-        id: 7,
+        id: 14,
         title: "Led Taxi Admin Panel",
         category: "Admin Panel",
         description:
@@ -305,7 +315,7 @@ const portfolioService = {
         link: null,
       },
       {
-        id: 8,
+        id: 15,
         title: "Merak Haritası",
         category: "Interactive Map",
         description:
@@ -316,7 +326,7 @@ const portfolioService = {
       },
 
       {
-        id: 12,
+        id: 16,
         title: "PTTTrade B2B Platform",
         category: "B2B Platform",
         description:
@@ -335,7 +345,7 @@ const portfolioService = {
         link: "https://www.ptttrade.com/",
       },
       {
-        id: 13,
+        id: 17,
         title: "SesliDünya Voice & Video Chat Rooms",
         category: "Real-Time Communication",
         description:
@@ -345,7 +355,7 @@ const portfolioService = {
         link: "https://web.seslidunya.com/",
       },
       {
-        id: 14,
+        id: 18,
         title: "DIMAR (Tubitak R&D Project)",
         category: "Audio & Image Processing",
         description:
@@ -362,7 +372,7 @@ const portfolioService = {
         link: null,
       },
       {
-        id: 15,
+        id: 19,
         title: "HADIARA (Tubitak R&D Project)",
         category: "Search Engine & Crawler",
         description:
@@ -379,7 +389,7 @@ const portfolioService = {
         link: null,
       },
       {
-        id: 16,
+        id: 20,
         title: "HADIARA SOCIAL MEDIA (Tubitak R&D Project)",
         category: "Social Media Search Engine",
         description:
@@ -396,7 +406,7 @@ const portfolioService = {
         link: null,
       },
       {
-        id: 17,
+        id: 21,
         title: "ASAR (Tubitak R&D Project)",
         category: "Search Engine",
         description:
@@ -413,7 +423,7 @@ const portfolioService = {
         link: null,
       },
       {
-        id: 18,
+        id: 22,
         title: "PIRAKS (Tubitak R&D Project)",
         category: "Address Quality Improvement",
         description:
@@ -430,7 +440,7 @@ const portfolioService = {
         link: null,
       },
       {
-        id: 19,
+        id: 23,
         title: "Turkish Sugar Corporation Document & Analysis System",
         category: "Enterprise Data Platform",
         description:
@@ -450,7 +460,7 @@ const portfolioService = {
         link: null,
       },
       {
-        id: 20,
+        id: 24,
         title: "Corporate Websites & SaaS Order Management (Solo Developer)",
         category: "Web & SaaS Solutions",
         description:
